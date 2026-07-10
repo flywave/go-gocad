@@ -1,0 +1,27 @@
+GOCAD TriSurf 1.0
+HEADER {
+name: unit-cube
+Solid Color: 0.8 0.8 0.8
+}
+*solid*color: 0.8 0.8 0.8
+PVRTX 1 0 0 0
+PVRTX 2 1 0 0
+PVRTX 3 1 1 0
+PVRTX 4 0 1 0
+PVRTX 5 0 0 1
+PVRTX 6 1 0 1
+PVRTX 7 1 1 1
+PVRTX 8 0 1 1
+TRGL 1 2 3
+TRGL 1 3 4
+TRGL 5 7 6
+TRGL 5 8 7
+TRGL 1 5 6
+TRGL 1 6 2
+TRGL 2 6 7
+TRGL 2 7 3
+TRGL 3 7 8
+TRGL 3 8 4
+TRGL 4 8 5
+TRGL 4 5 1
+END

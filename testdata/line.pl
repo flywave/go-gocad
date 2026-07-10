@@ -1,0 +1,9 @@
+GOCAD PLine 1.0
+HEADER {
+name: fault-trace
+}
+PVRTX 1 0 0 0
+PVRTX 2 10 5 20
+PVRTX 3 20 10 40
+PVRTX 4 30 15 60
+END
